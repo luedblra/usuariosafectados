@@ -1,0 +1,4 @@
+docker run -it --rm alpine /bin/ash
+ping ip
+
+docker exec -it laravel-app bash -c "sudo -u devuser /bin/bash"

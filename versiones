@@ -1,0 +1,17 @@
+&& unzip -o /tmp/instantclient-basic-linux.x64-12.2.0.1.0.zip -d /usr/local/ \
+     && unzip -o /tmp/instantclient-sdk-linux.x64-12.2.0.1.0.zip -d /usr/local/ \
+     && unzip -o /tmp/instantclient-sqlplus-linux.x64-12.2.0.1.0.zip -d /usr/local/ \
+     && ln -s /usr/local/instantclient_12_2 /usr/local/instantclient \
+     && ln -s /usr/local/instantclient/libclntsh.so.12.1 /usr/local/instantclient/libclntsh.so \
+     && ln -s /usr/local/instantclient/sqlplus /usr/bin/sqlplus \
+     && echo 'export LD_LIBRARY_PATH="/usr/local/instantclient"' >> 
+     
+     
+     
+     
+     && unzip -o /tmp/instantclient-basic-linux.x64-11.2.0.4.0 -d /usr/local/ \
+     && unzip -o /tmp/instantclient-sdk-linux.x64-11.2.0.4.0 -d /usr/local/ \
+     && unzip -o /tmp/instantclient-sqlplus-linux.x64-11.2.0.4.0 -d /usr/local/ \
+     && ln -s /usr/local/instantclient_11_2 /usr/local/instantclient \
+     && ln -s /usr/local/instantclient/libclntsh.so.11.1 /usr/local/instantclient/libclntsh.so \
+     && ln -s /usr/local/instantclient/sqlplus /usr/bin/sqlplus \
